@@ -5,16 +5,27 @@
 ## 项目结构
 
 ├── input/ # 存放输入数据（需手动创建）
+
 │ └── ag_news_test_balanced_40.csv
+
 ├── output/ # 输出目录（程序自动创建）
+
 │ └── predictions.csv # 打标结果
+
 ├── data_loader.py # 数据读取模块
+
 ├── labeller.py # 模型调用与打标核心
+
 ├── prompt.py # 提示词模板配置
+
 ├── caculating.py # 指标计算（准确率、F1等）
+
 ├── data_writter.py # 结果写入 CSV
+
 ├── pipeline.py # 主流程脚本
+
 └── README.md
+
 
 
 ## 功能模块
