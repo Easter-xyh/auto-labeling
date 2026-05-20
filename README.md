@@ -2,6 +2,8 @@
 
 本项目使用阿里云 DashScope 兼容模式调用 DeepSeek 模型，对 AG News 数据集（40 条平衡采样新闻）进行自动分类打标，并输出评估指标（准确率、各类别 Precision/Recall/F1、宏平均）。
 
+本项目在制作时借助了deepseek，具体对话链接在此处https://chat.deepseek.com/share/de6u0yj4ejxenhfjly
+
 ## 项目结构
 
 ├── input/ # 存放输入数据（需手动创建）
